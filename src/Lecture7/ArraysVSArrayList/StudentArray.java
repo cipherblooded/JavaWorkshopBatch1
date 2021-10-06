@@ -1,14 +1,37 @@
-package StoryOfStatic;
+package Lecture7.ArraysVSArrayList;
 
 public class StudentArray {
-    public static void main(String[] args) {
-        Student [] array = new Student[10]; // array
 
-        Student student0 = new Student("A","noida", "Gnoit");
-        Student student1 = new Student("B","noida", "Gnoit");
-        Student student2 = new Student("C","noida", "Gnoit");
-        Student student3 = new Student("D","noida", "Gnoit");
-        Student student4 = new Student("E","noida", "Gnoit");
+    public static void main(String[] args) {
+
+        // Creating an array of Student Class which contains 10 students
+        Student[] array = new Student[10];
+
+        Student student0 = new Student();
+        student0.name = "A";
+        student0.address = "Noida";
+        student0.college = "GNIOT";
+
+        Student student1 = new Student();
+        student1.name = "B";
+        student1.address = "Noida";
+        student1.college = "GNIOT";
+
+        Student student2 = new Student();
+        student2.name = "C";
+        student2.address = "Noida";
+        student2.college = "GNIOT";
+
+        Student student3 = new Student();
+        student3.name = "D";
+        student3.address = "Noida";
+        student3.college = "GNIOT";
+
+        Student student4 = new Student();
+        student4.name = "E";
+        student4.address = "Noida";
+        student4.college = "GNIOT";
+
         Student student5 = new Student("F","noida", "Gnoit");
         Student student6 = new Student("G","noida", "Gnoit");
         Student student7 = new Student("H","noida", "Gnoit");
@@ -35,6 +58,7 @@ public class StudentArray {
             System.out.print(studentKaData.college+ " ");
             System.out.println();
             System.out.println();
+
         }
     }
 }

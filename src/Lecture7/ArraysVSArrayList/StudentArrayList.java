@@ -1,4 +1,6 @@
-package StoryOfStatic;
+package Lecture7.ArraysVSArrayList;
+
+import Lecture7.ArraysVSArrayList.Student;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,10 +10,12 @@ public class StudentArrayList {
 
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<Student> arrayList = new ArrayList<>();
+        // Creating an ArrayList of Student Class which contains multiple students
+        ArrayList<Student> students = new ArrayList<>();
 
         for (int i = 0; i < 5; i++) {
 
+            System.out.println("----------------------------");
             System.out.println("Enter the data of student "+ (i+1) );
 
             System.out.println("Enter your name");
@@ -22,18 +26,19 @@ public class StudentArrayList {
             String college = scanner.next();
 
             Student student = new Student(name,address,college);
-            arrayList.add(student);
+            students.add(student);
         }
 
-        for (int i = 0; i < arrayList.size(); i++) {
+        for (int i = 0; i < students.size(); i++) {
 
-            Student studentKaData = arrayList.get(i); //
-            System.out.println("Data of Student"+ i);
+            Student studentKaData = students.get(i); //
+            System.out.println("Data of Student "+ (i+1));
             System.out.print(studentKaData.name+ " ");
             System.out.print(studentKaData.address+ " ");
             System.out.print(studentKaData.college+ " ");
             System.out.println();
             System.out.println();
+
         }
     }
 }

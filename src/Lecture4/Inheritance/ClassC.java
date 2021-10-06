@@ -2,7 +2,7 @@ package Lecture4.Inheritance;
 
 public class ClassC extends ClassB{
 
-    int myValueC = 10;
+    int myValueC = 15;
 
     public static void main(String[] args) {
 
@@ -11,6 +11,8 @@ public class ClassC extends ClassB{
         System.out.println(obj.myValueA);
         System.out.println(obj.myValueB);
         System.out.println(obj.myValueC);
+
+        obj.printHello();
 
     }
 
