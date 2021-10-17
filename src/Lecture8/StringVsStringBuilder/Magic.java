@@ -5,16 +5,19 @@ public class Magic {
     public static void main(String[] args) {
 
         String string = new String("");
-
         StringBuilder stringBuilder = new StringBuilder("");
 
         long t1 = System.currentTimeMillis();// 10 baj rahe hai
+
+        // String me 'a' add kara hai
 
         for (int i = 0; i < 100000; i++) {
             string = string+"a";
         }
 
         long t2 = System.currentTimeMillis(); // 11 baj rahe hai
+
+        // StringBuilder me 'a' add kara hai
 
         for (int i = 0; i < 100000; i++) {
             stringBuilder.append('a');

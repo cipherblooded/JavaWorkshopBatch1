@@ -1,7 +1,5 @@
 package Lecture7.ArraysVSArrayList;
 
-import Lecture7.ArraysVSArrayList.Student;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 

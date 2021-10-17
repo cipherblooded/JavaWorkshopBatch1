@@ -7,7 +7,7 @@ public class Stack_Data_Structure {
 
     public static void main(String[] args) {
 
-        // Queue stores the Data in LIFO fashion.
+        // Stack stores the Data in LIFO fashion.
         // LIFO :- Last In First Out. i.e. element which is inserted at last will be removed first.
 
         Scanner scanner = new Scanner(System.in);

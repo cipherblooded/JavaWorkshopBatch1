@@ -14,6 +14,7 @@ public class PriorityQueue_Data_Structure {
         // peek():- It is used to fetch an element from the priority queue.
 
         // Min Heap implementation
+        // Declaration of PriorityQueue in java
         PriorityQueue<Integer> pQMin= new PriorityQueue<>();
 
         pQMin.add(9);
@@ -34,6 +35,7 @@ public class PriorityQueue_Data_Structure {
         System.out.println("------------------------------");
 
         // Max heap implementation
+        // Declaration of PriorityQueue in java
         PriorityQueue<Integer> pQMax = new PriorityQueue<>(Collections.reverseOrder());
 
         pQMax.add(9);
